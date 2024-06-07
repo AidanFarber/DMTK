@@ -1,5 +1,15 @@
 from tkinter import *
 
+items_5e = {
+    "healing_potion",
+}
+
+class Character:
+    def __init__(self, name, stats, inventory):
+        self.name = name
+        self.stats = stats
+        self.inventory = inventory
+
 def main():
     root = Tk()
 
